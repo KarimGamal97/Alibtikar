@@ -74,6 +74,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 1200px) {
