@@ -1,0 +1,15 @@
+# Allow all web crawlers full access to your website
+User-agent: *
+Allow: /
+
+# Block specific folders or files that don't need to be indexed
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /?session_id=
+
+# Allow specific files within disallowed folders
+Allow: /admin/public-file.html
+
+# Specify the location of the sitemap to guide search engines
+Sitemap: https://alibtikar.vercel.app/sitemap.xml
