@@ -1681,7 +1681,7 @@ div#mCSB_1_container {
   bottom: 9px;
 }
 
-.banner-carousel .content-box h1 {
+.banner-carousel .content-box h1,.banner-carousel .content-box h2 {
   position: relative;
   display: block;
   color: #fff;
@@ -1702,7 +1702,7 @@ div#mCSB_1_container {
   transition: all 1000ms ease;
 }
 
-.banner-carousel .active .content-box h1 {
+.banner-carousel .active .content-box h1,.banner-carousel .active .content-box h2 {
   opacity: 1;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
